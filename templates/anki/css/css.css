@@ -1,0 +1,50 @@
+.card {
+  font-family: arial;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.wrapper {
+  padding-top: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.japanese {
+  font-size: 2.75rem;
+}
+
+.tags {
+  font-size: 0.75rem;
+  color: grey;
+}
+
+#answer {
+  width: 80%; /* 원하는 너비로 설정 가능 */
+  margin: 1rem auto; /* 상하 마진 1rem, 좌우 자동 */
+}
+
+.hide-furigana rt {
+  visibility: hidden;
+}
+
+.mac .ex {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* iOS */
+.ios .japanese {
+  font-size: 3.5rem;
+}
+
+.ios .ex {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
